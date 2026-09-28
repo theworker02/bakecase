@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/bakecase",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bake lightweight case statistics from stdin samples.",
+  "bin": {
+    "bakecase": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/bakecase.git"
+  },
+  "homepage": "https://theworker02.github.io/bakecase/",
+  "keywords": [
+    "bake",
+    "case",
+    "stat",
+    "cli",
+    "toolkit"
+  ]
+}
